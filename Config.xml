@@ -1,0 +1,76 @@
+<Config>
+
+	<Debug>
+
+		<Info>1</Info>
+		<Console>1</Console>
+
+		<SkipIntro>1</SkipIntro>
+
+	</Debug>
+
+	<Display>
+
+		<Fullscreen>0</Fullscreen>
+		<ScreenRefresh>60</ScreenRefresh>
+		<IncludeRefresh>1</IncludeRefresh>
+		<ScreenWidth>800</ScreenWidth>
+		<ScreenHeight>600</ScreenHeight>
+		<ScreenDepth>32</ScreenDepth>
+
+	</Display>
+
+	<OpenGL>
+
+		<FieldOfVision>60</FieldOfVision>
+		<DrawDistance>32</DrawDistance>
+		<TextureFilter>2</TextureFilter>
+
+	</OpenGL>
+
+	<Camera>
+
+		<RotateLeft>J</RotateLeft>
+		<RotateRight>L</RotateRight>
+		<RotateUp>I</RotateUp>
+		<RotateDown>K</RotateDown>
+		<ZoomIn>N</ZoomIn>
+		<ZoomOut>M</ZoomOut>
+
+	</Camera>
+
+	<Sound>
+
+		<Sound>1</Sound>
+		<EngineSound>Engine.Wav</EngineSound>
+		<Volume>100</Volume>
+
+	</Sound>
+
+	<Input>
+
+		<JoyStick>0</JoyStick>
+		<Gas>W</Gas>
+		<Brake>S</Brake>
+		<FrontSteerLeft>A</FrontSteerLeft>
+		<FrontSteerRight>D</FrontSteerRight>
+		<RearSteerLeft>A</RearSteerLeft>
+		<RearSteerRight>D</RearSteerRight>
+
+	</Input>
+
+	<Game>
+
+		<PodFiles>1</PodFiles>
+		<Reflections>1</Reflections>
+		<LenseFlare>1</LenseFlare>
+		<WrapWorld>1</WrapWorld>
+		<Weather>0</Weather>
+		<Scenery>3</Scenery>
+		<TrackName>TEST</TrackName>
+		<TruckName>08BRUTUS</TruckName>
+
+	</Game>
+
+</Config>
+

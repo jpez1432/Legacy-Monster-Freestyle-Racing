@@ -1,0 +1,145 @@
+<Physics>
+
+    <World>
+    
+        <Gravity>-9.8</Gravity>
+        <ERP>1.0</ERP>
+        <CFM>0.000001</CFM>
+        <Slip>0.000006</Slip>
+	  <MassScale>0.2</MassScale>
+
+	  <Collisions>
+		<Bounce>0.1</Bounce>
+		<BounceVel>0.1</BounceVel>
+		<Soft_CFM>0.0000001</Soft_CFM>
+		<Soft_ERP>1.0</Soft_ERP>
+	  </Collisions>
+
+    </World>
+    
+    <Vehicle>
+
+	  <Transmission>
+
+		<HorsePower>1500</HorsePower>
+
+		<Gear0Min>0</Gear0Min>
+		<Gear1Min>6.259000</Gear1Min>
+		<Gear2Min>3.625000</Gear2Min>
+		<Gear3Min>2.000000</Gear3Min>
+
+		<Gear0Max>0</Gear0Max>
+		<Gear1Max>1.100000</Gear1Max>
+		<Gear2Max>0.900000</Gear2Max>
+		<Gear3Max>0.400000</Gear3Max>
+
+		<ScaleLow>0.1</ScaleLow>
+
+		<Gear0Low>0</Gear0Low>
+		<Gear1Low>50.0</Gear1Low>
+		<Gear2Low>80.0</Gear2Low>
+		<Gear3Low>110.0</Gear3Low>
+
+		<ScaleHigh>0.1</ScaleHigh>
+
+		<Gear0High>0</Gear0High>
+		<Gear1High>70.0</Gear1High>
+		<Gear2High>110.0</Gear2High>
+		<Gear3High>155.0</Gear3High>
+
+        </Transmission>
+
+
+        <Slip>0.000006</Slip>
+        <Mass>10000</Mass>
+	  <COGScale>50</COGScale>
+    
+        <MinSteer>-0.44</MinSteer>
+        <MaxSteer>0.44</MaxSteer>
+        <SteerSpeed>0.0075</SteerSpeed>
+    
+        <Brake>50</Brake>
+        <Drag>0</Drag>
+        <MaxSpeed>75</MaxSpeed>
+        <RevSpeed>45</RevSpeed>
+    
+        <Axle>
+          
+            <Wheel>
+                
+                <DriveMul>1</DriveMul>
+                <SteerMul>1</SteerMul>
+                <Slip>0.00001</Slip>
+                <Shock>0.000006</Shock>
+    		    <ERP>0.6</ERP>
+		    <StopERP>0.6</StopERP>
+		    <StopCFM>0.000001</StopCFM>
+		    <Bounce>0.001</Bounce>
+		    <CFM>0.000001</CFM>
+		    <FMax>10.0</FMax>
+		    <FudgeFactor>0.8</FudgeFactor>
+                <Mass>2000</Mass>
+    
+            </Wheel>
+        
+            <Wheel>
+                
+                <DriveMul>1</DriveMul>
+                <SteerMul>1</SteerMul>
+                <Slip>0.00001</Slip>
+                <Shock>0.000006</Shock>
+    		    <ERP>0.6</ERP>
+		    <StopERP>0.6</StopERP>
+		    <StopCFM>0.000001</StopCFM>
+		    <Bounce>0.001</Bounce>
+		    <CFM>0.000001</CFM>
+		    <FMax>10.0</FMax>
+		    <FudgeFactor>0.8</FudgeFactor>
+                <Mass>2000</Mass>
+    
+            </Wheel>
+    
+        </Axle>
+    
+        <Axle>
+        
+            <Wheel>
+                
+                <DriveMul>1</DriveMul>
+                <SteerMul>-1</SteerMul>
+                <Slip>0.00001</Slip>
+                <Shock>0.000006</Shock>
+    		    <ERP>0.6</ERP>
+		    <StopERP>0.6</StopERP>
+		    <StopCFM>0.000001</StopCFM>
+		    <Bounce>0.001</Bounce>
+		    <CFM>0.000001</CFM>
+		    <FMax>10.0</FMax>
+		    <FudgeFactor>0.8</FudgeFactor>
+                <Mass>2000</Mass>
+    
+            </Wheel>
+        
+            <Wheel>
+                
+                <DriveMul>1</DriveMul>
+                <SteerMul>-1</SteerMul>
+                <Slip>0.00001</Slip>
+                <Shock>0.000006</Shock>
+    		    <ERP>0.6</ERP>
+		    <StopERP>0.6</StopERP>
+		    <StopCFM>0.000001</StopCFM>
+		    <Bounce>0.001</Bounce>
+		    <CFM>0.000001</CFM>
+		    <FMax>10.0</FMax>
+		    <FudgeFactor>0.8</FudgeFactor>
+                <Mass>2000</Mass>
+    
+            </Wheel>
+    
+        </Axle>
+    
+    </Vehicle>
+
+</Physics>
+
